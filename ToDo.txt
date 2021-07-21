@@ -1,0 +1,15 @@
+Backend ToDo
+
+ - 2 Get Requests (queries)
+  - 1 query for physicians (.name, .email)
+    x create model
+    x create resolver
+      x resolver returns hard coded dummy data
+      - resolver returns dummy data from file
+    x create module
+  - 1 query for appointments (.id, .patient, .time, .kind)
+    x create model
+    x create resolver
+      x resolver returns hard coded dummy data
+      - resolver returns dummy data from file
+    x create module

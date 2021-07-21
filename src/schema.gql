@@ -1,0 +1,26 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type TestObject {
+  data: String!
+}
+
+type Appointment {
+  id: Int!
+  patient: String!
+  time: String!
+  kind: String!
+}
+
+type Physician {
+  name: String!
+  email: String!
+}
+
+type Query {
+  testObj: TestObject!
+  test: String!
+  appointments: [Appointment!]!
+  physicians: [Physician!]!
+}
